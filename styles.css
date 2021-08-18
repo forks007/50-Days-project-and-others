@@ -1,0 +1,36 @@
+div{
+    margin: auto auto;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    background-color: rgba(210, 198, 30, 0.356);
+    /* align-items: flex-end; */
+    align-items: center;
+    justify-content: center;
+}
+
+#play{
+    
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.guess{
+    width: 100%;
+    background-color: rgba(19, 13, 2, 0.199);
+    height: 50px;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 50px;
+    outline: none;
+}
+
+.submit{
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px auto;
+    font-weight: bolder
+}
