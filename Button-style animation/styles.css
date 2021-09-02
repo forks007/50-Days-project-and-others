@@ -1,0 +1,38 @@
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+button{
+    position: relative;
+    padding: 15px 40px;
+    background-color: rgb(9, 3, 41);
+    color: #fff;
+    border: 1px solid rgb(2, 0, 128);
+    border-radius: 10px;
+    margin: 10px 2px;
+    overflow: hidden;
+}
+button .circle{
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    animation: scale 0.5s ease-out;
+}
+@keyframes scale{
+    to {
+        transform: translate(-50%,-50%) scale(3);
+        opacity: 0;
+
+    }
+}
